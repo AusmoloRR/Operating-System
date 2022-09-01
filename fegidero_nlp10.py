@@ -63,3 +63,4 @@ frequency = pd.DataFrame(words_freq, columns=['word', 'freq'])
 frequency.head(30).plot(x='word', y='freq', kind='bar', figsize=(15, 7), color = 'blue')
 plt.title("Most Frequently Occuring Words - Top 30")
 
+plt.title("Most Frequently Occuring Words - Top 50")
